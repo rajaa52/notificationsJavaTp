@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/instructionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="24dp"
+        android:text=" Veuillez cliquer pour incrémenter le compteur!"
+        android:textAlignment="center"
+        android:textColor="#666666"
+        android:textStyle="bold"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/counterText"
+        android:layout_width="321dp"
+        android:layout_height="291dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="24dp"
+        android:background="@color/rose"
+        android:gravity="center"
+        android:text="0"
+        android:textSize="64sp" />
+
+    <Button
+        android:id="@+id/incrementButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="   Incrémenter  " />
+
+    <Button
+        android:id="@+id/ResetButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" recommencer " />
+</LinearLayout>
